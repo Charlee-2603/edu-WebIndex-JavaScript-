@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>自适应Web主页模块</title>
+</head>
+<body>
+<!-- 添加文档主题内容 -->
+<header>
+    <div id="navmenu">
+        <span class="title">HTML5 + CSS + JS ---- 自适应主页</span>
+        <span class="loginLeft">
+            <a href="#">登录</a>
+        </span>
+        <ul>
+            <li class="borderLeft">
+                <a href="#" target="_blank">
+                    主页
+                </a>
+            </li>
+
+            <li>
+                <a href="#" target="_blank">导航菜单</a>
+            </li>
+
+            <li>
+                <a href="#" target="_blank">导航菜单</a>
+                <ul>
+                    <li class="top">
+                        <a href="#" target="_blank">导航菜单</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">导航菜单</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">导航菜单</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" target="_blank">关于我们</a>
+                <ul>
+                    <li class="top">
+                        <a href="#" target="_blank">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">关于我们</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <span class="login">
+            <a href="#">登录</a>
+        </span>
+    </div>
+</header>
+<br>
+
+<!-- content -->
+<div class="content">
+    <div class="leftBox">
+        <div class="navLeft">
+            <ul class="navleftmenu">
+                <li><a onclick="on_html5_click();">HTML5</a></li>
+                <li><a onclick="on_css3_click();">CSS3</a></li>
+                <li><a onclick="on_js_click();">JavaScript</a></li>
+                <li><a onclick="on_chrome_click();">Chrome</a></li>
+                <li><a onclick="on_firefox_click();">Firefox</a></li>
+                <li><a onclick="on_safari_click();">Safari</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="middleBox">
+        <p>large image:</p>
+        <img id="id-image-large" src="" alt="image_large">
+    </div>
+
+    <div class="rightBox">
+        <p>small image:</p>
+        <img id="id-image-small" src="" alt="image_small">
+    </div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>copyright &copy; 2017 king &amp; king.</p>
+</footer>
+
+<!-- 添加文档主题内容 -->
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
