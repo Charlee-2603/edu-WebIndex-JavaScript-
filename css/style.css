@@ -241,3 +241,92 @@ footer {
     color: #666666;
     background-color: #eee;
 }
+
+/*
+    自适应Web主页媒体查询
+ */
+@media only  screen and (min-width: 1024px) {
+    .content {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+}
+
+@media only screen  and (min-width: 800px) and (max-width: 1024px) {
+    #navmenu span.title {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    #navmenu span.loginLeft {
+        visibility: visible;
+    }
+
+    #navmenu span.login {
+        visibility: hidden;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+
+    .leftBox {
+        width: 30%;
+    }
+
+    .middleBox {
+        width: 65%;
+    }
+
+    .rightBox {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    #navmenu span.title {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+    }
+
+    #navmenu span.loginLeft {
+        width: 100%;
+        margin: auto;
+        visibility: visible;
+        background-color: #fff;
+    }
+
+    #navmenu span.login {
+        visibility: hidden;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+
+    .leftBox {
+        width: 30%;
+    }
+
+    .middleBox {
+        width: auto;
+    }
+
+    .rightBox {
+        visibility: hidden;
+        width: 0;
+    }
+}
+
+@media only screen and  (max-width: 400px) {
+    .leftBox, .middleBox, .rightBox{
+        float: left;
+        position: relative;
+        width: 98%;
+        height: auto;
+    }
+}
